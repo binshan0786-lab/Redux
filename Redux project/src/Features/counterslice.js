@@ -6,7 +6,7 @@ export   const counterslice = createSlice({
         value: 0,
     },
     reducers: {
-        increment: (state) => {
+        increment: (state) => { //ith binshan branch
             state.value += 1   // state.value = state.value + 1 
         },
         decrement: (state) => {
