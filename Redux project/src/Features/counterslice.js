@@ -12,7 +12,7 @@ export   const counterslice = createSlice({
         decrement: (state) => {
             state.value -= 1
         },
-        incrementByAmount: (state, action) => {
+        incrementByAmount: (state, action) => {   ///this is cgangefkdsjflik
             state.value += action.payload
         },
     },
